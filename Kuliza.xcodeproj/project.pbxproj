@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A5CDC294D0BE61202CE696F /* Pods_Kuliza.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62E34484840ACEA4341BF216 /* Pods_Kuliza.framework */; };
+		984543871FFF439800E33B1B /* DataCollectionViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984543861FFF439800E33B1B /* DataCollectionViewDataSource.swift */; };
+		9845438B1FFF67AA00E33B1B /* CustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9845438A1FFF67AA00E33B1B /* CustomViewController.swift */; };
+		9862D7E51FFE17C900DC0F14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9862D7E41FFE17C900DC0F14 /* AppDelegate.swift */; };
+		9862D7E71FFE17C900DC0F14 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9862D7E61FFE17C900DC0F14 /* ViewController.swift */; };
+		9862D7EA1FFE17C900DC0F14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9862D7E81FFE17C900DC0F14 /* Main.storyboard */; };
+		9862D7EC1FFE17C900DC0F14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9862D7EB1FFE17C900DC0F14 /* Assets.xcassets */; };
+		9862D7EF1FFE17C900DC0F14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9862D7ED1FFE17C900DC0F14 /* LaunchScreen.storyboard */; };
+		9862D7F71FFE3C1B00DC0F14 /* CompareTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9862D7F61FFE3C1B00DC0F14 /* CompareTableViewController.swift */; };
+		9862D7F91FFE3D9900DC0F14 /* GraphTabCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9862D7F81FFE3D9900DC0F14 /* GraphTabCollectionViewCell.swift */; };
+		9862D7FB1FFE464E00DC0F14 /* RUPEE_FORADIAN.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 9862D7FA1FFE464E00DC0F14 /* RUPEE_FORADIAN.TTF */; };
+		9862D7FF1FFE475400DC0F14 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9862D7FE1FFE475400DC0F14 /* Constants.swift */; };
+		9862D8011FFE4D5500DC0F14 /* GraphDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9862D8001FFE4D5500DC0F14 /* GraphDataViewModel.swift */; };
+		9862D8031FFE578000DC0F14 /* DataCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9862D8021FFE578000DC0F14 /* DataCollectionViewCell.swift */; };
+		9862D8051FFE638600DC0F14 /* PortfolioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9862D8041FFE638600DC0F14 /* PortfolioViewController.swift */; };
+		9862D8071FFE64CF00DC0F14 /* PortfolioTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9862D8061FFE64CF00DC0F14 /* PortfolioTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		52EFF3C96EE320C042F61D5E /* Pods-Kuliza.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kuliza.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kuliza/Pods-Kuliza.debug.xcconfig"; sourceTree = "<group>"; };
+		62E34484840ACEA4341BF216 /* Pods_Kuliza.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kuliza.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		984543861FFF439800E33B1B /* DataCollectionViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCollectionViewDataSource.swift; sourceTree = "<group>"; };
+		984543891FFF4A2E00E33B1B /* Kuliza-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Kuliza-Bridging-Header.h"; sourceTree = "<group>"; };
+		9845438A1FFF67AA00E33B1B /* CustomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewController.swift; sourceTree = "<group>"; };
+		9862D7E11FFE17C900DC0F14 /* Kuliza.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kuliza.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9862D7E41FFE17C900DC0F14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9862D7E61FFE17C900DC0F14 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9862D7E91FFE17C900DC0F14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9862D7EB1FFE17C900DC0F14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9862D7EE1FFE17C900DC0F14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9862D7F01FFE17C900DC0F14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9862D7F61FFE3C1B00DC0F14 /* CompareTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompareTableViewController.swift; sourceTree = "<group>"; };
+		9862D7F81FFE3D9900DC0F14 /* GraphTabCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphTabCollectionViewCell.swift; sourceTree = "<group>"; };
+		9862D7FA1FFE464E00DC0F14 /* RUPEE_FORADIAN.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = RUPEE_FORADIAN.TTF; sourceTree = "<group>"; };
+		9862D7FE1FFE475400DC0F14 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		9862D8001FFE4D5500DC0F14 /* GraphDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphDataViewModel.swift; sourceTree = "<group>"; };
+		9862D8021FFE578000DC0F14 /* DataCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCollectionViewCell.swift; sourceTree = "<group>"; };
+		9862D8041FFE638600DC0F14 /* PortfolioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioViewController.swift; sourceTree = "<group>"; };
+		9862D8061FFE64CF00DC0F14 /* PortfolioTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioTableViewCell.swift; sourceTree = "<group>"; };
+		CA67C0A105448CDAA478285F /* Pods-Kuliza.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kuliza.release.xcconfig"; path = "Pods/Target Support Files/Pods-Kuliza/Pods-Kuliza.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9862D7DE1FFE17C900DC0F14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A5CDC294D0BE61202CE696F /* Pods_Kuliza.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C60321998E492ED2E164EDB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				62E34484840ACEA4341BF216 /* Pods_Kuliza.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0EFA9C5A5938259E87837F8A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				52EFF3C96EE320C042F61D5E /* Pods-Kuliza.debug.xcconfig */,
+				CA67C0A105448CDAA478285F /* Pods-Kuliza.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9845438C1FFF6A6000E33B1B /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				9862D7E41FFE17C900DC0F14 /* AppDelegate.swift */,
+			);
+			path = "App Delegate";
+			sourceTree = "<group>";
+		};
+		9845438D1FFF6A7000E33B1B /* Story Boards */ = {
+			isa = PBXGroup;
+			children = (
+				9862D7ED1FFE17C900DC0F14 /* LaunchScreen.storyboard */,
+				9862D7E81FFE17C900DC0F14 /* Main.storyboard */,
+			);
+			path = "Story Boards";
+			sourceTree = "<group>";
+		};
+		9845438E1FFF6A9A00E33B1B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9862D7F61FFE3C1B00DC0F14 /* CompareTableViewController.swift */,
+				9862D7E61FFE17C900DC0F14 /* ViewController.swift */,
+				9862D8041FFE638600DC0F14 /* PortfolioViewController.swift */,
+				9845438A1FFF67AA00E33B1B /* CustomViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9845438F1FFF6AD900E33B1B /* Data Source */ = {
+			isa = PBXGroup;
+			children = (
+				984543861FFF439800E33B1B /* DataCollectionViewDataSource.swift */,
+			);
+			path = "Data Source";
+			sourceTree = "<group>";
+		};
+		984543901FFF6AE900E33B1B /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				9862D8061FFE64CF00DC0F14 /* PortfolioTableViewCell.swift */,
+				9862D8021FFE578000DC0F14 /* DataCollectionViewCell.swift */,
+				9862D7F81FFE3D9900DC0F14 /* GraphTabCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		984543911FFF6B0300E33B1B /* Data View Model */ = {
+			isa = PBXGroup;
+			children = (
+				9862D8001FFE4D5500DC0F14 /* GraphDataViewModel.swift */,
+			);
+			path = "Data View Model";
+			sourceTree = "<group>";
+		};
+		984543921FFF6B1D00E33B1B /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				9862D7FE1FFE475400DC0F14 /* Constants.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		9862D7D81FFE17C900DC0F14 = {
+			isa = PBXGroup;
+			children = (
+				9862D7E31FFE17C900DC0F14 /* Kuliza */,
+				9862D7E21FFE17C900DC0F14 /* Products */,
+				0EFA9C5A5938259E87837F8A /* Pods */,
+				0C60321998E492ED2E164EDB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9862D7E21FFE17C900DC0F14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9862D7E11FFE17C900DC0F14 /* Kuliza.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9862D7E31FFE17C900DC0F14 /* Kuliza */ = {
+			isa = PBXGroup;
+			children = (
+				9845438C1FFF6A6000E33B1B /* App Delegate */,
+				9845438D1FFF6A7000E33B1B /* Story Boards */,
+				9845438E1FFF6A9A00E33B1B /* Controllers */,
+				984543911FFF6B0300E33B1B /* Data View Model */,
+				984543901FFF6AE900E33B1B /* Cells */,
+				9845438F1FFF6AD900E33B1B /* Data Source */,
+				984543921FFF6B1D00E33B1B /* Util */,
+				984543891FFF4A2E00E33B1B /* Kuliza-Bridging-Header.h */,
+				9862D7EB1FFE17C900DC0F14 /* Assets.xcassets */,
+				9862D7FA1FFE464E00DC0F14 /* RUPEE_FORADIAN.TTF */,
+				9862D7F01FFE17C900DC0F14 /* Info.plist */,
+			);
+			path = Kuliza;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9862D7E01FFE17C900DC0F14 /* Kuliza */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9862D7F31FFE17C900DC0F14 /* Build configuration list for PBXNativeTarget "Kuliza" */;
+			buildPhases = (
+				E0BBADAC5857D3CCA2C45EE9 /* [CP] Check Pods Manifest.lock */,
+				9862D7DD1FFE17C900DC0F14 /* Sources */,
+				9862D7DE1FFE17C900DC0F14 /* Frameworks */,
+				9862D7DF1FFE17C900DC0F14 /* Resources */,
+				7D0B60063832C744DCB376ED /* [CP] Embed Pods Frameworks */,
+				4ADC829CE8775315C380731B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kuliza;
+			productName = Kuliza;
+			productReference = 9862D7E11FFE17C900DC0F14 /* Kuliza.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9862D7D91FFE17C900DC0F14 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Deblinas;
+				TargetAttributes = {
+					9862D7E01FFE17C900DC0F14 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9862D7DC1FFE17C900DC0F14 /* Build configuration list for PBXProject "Kuliza" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9862D7D81FFE17C900DC0F14;
+			productRefGroup = 9862D7E21FFE17C900DC0F14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9862D7E01FFE17C900DC0F14 /* Kuliza */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9862D7DF1FFE17C900DC0F14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9862D7EF1FFE17C900DC0F14 /* LaunchScreen.storyboard in Resources */,
+				9862D7EC1FFE17C900DC0F14 /* Assets.xcassets in Resources */,
+				9862D7FB1FFE464E00DC0F14 /* RUPEE_FORADIAN.TTF in Resources */,
+				9862D7EA1FFE17C900DC0F14 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4ADC829CE8775315C380731B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kuliza/Pods-Kuliza-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D0B60063832C744DCB376ED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Kuliza/Pods-Kuliza-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FSLineChart/FSLineChart.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSLineChart.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kuliza/Pods-Kuliza-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0BBADAC5857D3CCA2C45EE9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kuliza-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9862D7DD1FFE17C900DC0F14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9862D7E71FFE17C900DC0F14 /* ViewController.swift in Sources */,
+				9862D7F71FFE3C1B00DC0F14 /* CompareTableViewController.swift in Sources */,
+				9862D7F91FFE3D9900DC0F14 /* GraphTabCollectionViewCell.swift in Sources */,
+				9862D7E51FFE17C900DC0F14 /* AppDelegate.swift in Sources */,
+				9862D7FF1FFE475400DC0F14 /* Constants.swift in Sources */,
+				984543871FFF439800E33B1B /* DataCollectionViewDataSource.swift in Sources */,
+				9862D8051FFE638600DC0F14 /* PortfolioViewController.swift in Sources */,
+				9845438B1FFF67AA00E33B1B /* CustomViewController.swift in Sources */,
+				9862D8031FFE578000DC0F14 /* DataCollectionViewCell.swift in Sources */,
+				9862D8071FFE64CF00DC0F14 /* PortfolioTableViewCell.swift in Sources */,
+				9862D8011FFE4D5500DC0F14 /* GraphDataViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9862D7E81FFE17C900DC0F14 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9862D7E91FFE17C900DC0F14 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9862D7ED1FFE17C900DC0F14 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9862D7EE1FFE17C900DC0F14 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9862D7F11FFE17C900DC0F14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9862D7F21FFE17C900DC0F14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9862D7F41FFE17C900DC0F14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52EFF3C96EE320C042F61D5E /* Pods-Kuliza.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2JS7EYD8X8;
+				INFOPLIST_FILE = Kuliza/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.deblina.Kuliza;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Kuliza/Kuliza-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9862D7F51FFE17C900DC0F14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA67C0A105448CDAA478285F /* Pods-Kuliza.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2JS7EYD8X8;
+				INFOPLIST_FILE = Kuliza/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.deblina.Kuliza;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Kuliza/Kuliza-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9862D7DC1FFE17C900DC0F14 /* Build configuration list for PBXProject "Kuliza" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9862D7F11FFE17C900DC0F14 /* Debug */,
+				9862D7F21FFE17C900DC0F14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9862D7F31FFE17C900DC0F14 /* Build configuration list for PBXNativeTarget "Kuliza" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9862D7F41FFE17C900DC0F14 /* Debug */,
+				9862D7F51FFE17C900DC0F14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9862D7D91FFE17C900DC0F14 /* Project object */;
+}
